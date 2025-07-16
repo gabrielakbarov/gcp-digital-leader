@@ -1,5 +1,4 @@
 # 2 - Exploring Data Transformation with Google Cloud
-
 - [2.1 The Value of Data](#21-the-value-of-data)
 - [2.2 Google Cloud Data Management Solutions](#22-google-cloud-data-management-solutions)
 - [2.3 Making Data Useful and Accessible](#23-making-data-useful-and-accessible)
@@ -136,9 +135,54 @@
 ## 2.3 Making Data Useful and Accessible
 
 <ul>
-    <li>Looker (democratizing access to data)</li>
-    <li>BigQuery & Looker</li>
-    <li>Real-time analytics</li>
-    <li>Data pipelines within Google Cloud</li>
+    <li><strong>Looker</strong>
+        <ul>
+            <li></li>
+        </ul>
+    </li>
+    <li><strong>BigQuery & Looker</strong>
+        <ul>
+            <li></li>
+        </ul>
+    </li>
+    <li><strong>Real-time analytics</strong>
+        <ul>
+            <li>Small sizes</li>
+            <li>Continuous flow</li>
+            <li>Sensors, market quotes, social media feeds</li>
+            <li>Ecommerce, financial services, investment services, news media, utilities</li>
+        </ul>
+    </li>
+    <li><strong>Data pipelines within Google Cloud</strong>
+        <ul>
+            <li>Data pipeline: Series of actions or stages, that ingest raw data from different sources and then move that data to a destination for storage and analysis.</li>
+            <li>Pub/Sub
+                <ul>
+                    <li>Hundreds of millions of events per second</li>
+                    <li>Distributed messaging service</li>
+                </ul>
+            </li>
+            <li>Dataflow
+                <ul>
+                    <li>Unifies streaming and batch data analysis ans builds cohesive data pipelines</li>
+                    <li>Auto-scaling, serverless, fully managed</li>
+                </ul>
+            </li>
+        </ul>
+    </li>
 </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
