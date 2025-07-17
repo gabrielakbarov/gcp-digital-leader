@@ -38,7 +38,7 @@
       A --> |Structured or semi-structured| C{Workload?}
       C --> |Transactional|D{SQL or NoSQL?}
       C --> |Analytical|E{SQL or NoSQL?}
-      D --> |SQL|F{Scalability?}
+      D --> |SQL|F{Scale?}
       D --> |NoSQL|G[Firestore]
       F --> |Local/regional|H[Cloud SQL]
       F --> |Global|I[Spanner]
